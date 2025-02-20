@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-none;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+    padding: 22px;
+}
+
+#galeria {
+
+    display: row;
+    columns: 6;
+}
+
+#galeria img {
+    width: 100%;
+    padding-block: 4px;
+    border-radius: 16px;
+
+}
+
+#galeria img:hover {
+    transform: scale(110%);
+    transition: 0.5s;
+}
+
+#pesquisar {
+    border-style: none;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding: 5px;
+    background-color: rgb(19, 202, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+#raca {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-style: none;
+    
+}
+
+#raca:placeholder-shown {
+    color: rgb(181, 193, 204);
+    
+}
